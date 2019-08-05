@@ -54,12 +54,7 @@ public class dbs_tab_person {
 	public void setPhoneNr(int phoneNr) {
 		this.phone_Nr = phoneNr;
 	}
-	@Id
-	private int person_ID;
-	private String first_Name;
-	private String last_Name;
-	private int phone_Nr;
-	private String address;
+
 	/**
 	 * @return the address
 	 */
@@ -73,6 +68,11 @@ public class dbs_tab_person {
 		this.address = address;
 	}
 	
-	
+	@Id
+	private int person_ID;
+	private String first_Name;
+	private String last_Name;
+	private int phone_Nr;
+	private String address;
 	
 }

@@ -17,7 +17,7 @@ public class App {
 		person.setLastName("testLastName");
 		person.setAddress("tannenbusch mitte");
 		person.setPersonID(101);
-		person.setPhoneNr(123453433);
+		person.setPhoneNr(123453432);
 		Configuration con = new Configuration().configure().addAnnotatedClass(dbs_tab_person.class);
 		SessionFactory sef = con.buildSessionFactory();
 
