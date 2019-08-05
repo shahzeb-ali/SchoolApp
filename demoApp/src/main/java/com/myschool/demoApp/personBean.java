@@ -3,8 +3,8 @@ package com.myschool.demoApp;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
-public class dbs_tab_person {
+@Entity(name="dbs_tab_person")
+public class personBean {
 	/**
 	 * @return the personID
 	 */
